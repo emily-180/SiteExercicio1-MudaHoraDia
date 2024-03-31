@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+    font-family: 'Monospace', sans-serif;
+    color: white;
+
+    display: flex; /* Usa flexbox para alinhar o conteúdo verticalmente */
+    min-height: 50vh; /* Garante que o body tenha pelo menos a altura da janela */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+}
+
+section {
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    border: 2px solid rgb(145, 0, 0);
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(145, 0, 0);
+    transition: box-shadow 0.5s ease; 
+}
+
+section:hover {
+    box-shadow: 5px 5px 20px rgb(255, 0, 0); 
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+footer, header{
+    text-align: center;
+    font-style: italic;
+    margin: 5px auto; 
+    background-color: rgba(8, 8, 8, 0.521); 
+    display: inline-block; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 500px; /* Define a largura máxima */
+    padding: 5px; /* Adiciona um pouco de espaço interno */
+}
+
+#foto img {
+    max-width: 100%;
+    height: auto;
+    width: 50%; 
+    display: block;
+    margin: 0 auto; 
+}
